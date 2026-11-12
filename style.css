@@ -1,0 +1,52 @@
+﻿/* Cai dat chung */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e3a8a);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Khung noi dung */
+.container {
+    width: 80%;
+    max-width: 650px;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: #38bdf8;
+    margin-bottom: 25px;
+}
+
+p {
+    margin: 15px 0;
+    font-size: 17px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #0ea5e9;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0284c7;
+}
